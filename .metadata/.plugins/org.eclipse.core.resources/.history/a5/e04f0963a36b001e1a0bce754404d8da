@@ -1,0 +1,39 @@
+package views;
+
+import controllers.EmpleadoController;
+
+public class EmpleadoView {
+
+	public static void main(String[] args) {
+		
+		String empleado;
+		
+		//Metodo de creación de empleados
+		
+//		empleado = new EmpleadoController().createEmpleado("Rodriguez Carrillo","Lucia Andrea",20, "Femenino",1500.00);
+//		empleado = new EmpleadoController().createEmpleado("Narvaez Miranda","Rosmery",25, "Femenino",2700.00);
+//		empleado = new EmpleadoController().createEmpleado("Lopez Aguirre","Maria",24, "Femenino",2300.00);
+//		empleado = new EmpleadoController().createEmpleado("Lujan Linares","Roberto Jose",23, "Masculino",2100.50);
+//		empleado = new EmpleadoController().createEmpleado("Garcia Quispe","Fernando",22, "Masculino",1900.75);
+//		empleado = new EmpleadoController().createEmpleado("Huaman Merma","Maximo Raul",24, "Masculino",1450.80);
+//		empleado = new EmpleadoController().createEmpleado("Rojas Obregon","Evelyn Rosa",20, "Femenino",1700.00);
+//		empleado = new EmpleadoController().createEmpleado("Rios Martinez","Elena",21, "Femenino",1555.00);
+//		empleado = new EmpleadoController().createEmpleado("Romero Molina","Gloria",23, "Femenino",1678.00);
+//		empleado = new EmpleadoController().createEmpleado("Castelo Flores","Sebastian",25, "Masculino",2500.00);
+		
+		
+		//Metodo de eliminar empleado
+		
+//		empleado = new EmpleadoController().deleteEmpleado(1);
+//		empleado = new EmpleadoController().deleteEmpleado(5);
+		
+		//Metodo de actualización de empleado
+//		empleado = new EmpleadoController().updateEmpleado(8, "Rios Martinez","Elena Maria",21, "Femenino",2000.00);
+//		empleado = new EmpleadoController().updateEmpleado(10, "Castelo Flores","Sebastian Angel",28, "Masculino",2750.00);
+		
+		//Metodo de obtener empleado
+		empleado = new EmpleadoController().getEmpleado(3);
+		System.out.print(empleado);
+	}
+
+}
